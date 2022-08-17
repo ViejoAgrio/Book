@@ -7,11 +7,10 @@ De acuerdo a los conocimientos y capacidades que se tienen a este momento y los 
 Algoritmo:
 
 Sign in or Log in
-
-Sign in
- - Nombre
- - Redes Sociales
- - Contraseña
+ - Sign in
+   - Nombre
+   - Redes Sociales
+   - Contraseña
     
 Log in
 - Nombre
