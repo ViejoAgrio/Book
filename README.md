@@ -5,12 +5,15 @@ En la matería de pothumanismo, ética y tecnología analizamos un capitulo de l
 De acuerdo a los conocimientos y capacidades que se tienen a este momento y los que se pronostican, claro está que es imposible recrear este sistema, por lo que solo lo utilizaremos como inspiración, por lo que se elaborará un programa donde se puedan guardar perfiles para posteriormente ingresar a uno y calificar los demás en base a los comentarios y redes sociales que se muestran sobre la persona buscada. 
 
 Algoritmo:
+
 Sign in or Log in
+
   Sign in
     -	Nombre 
     -	Redes Sociales
     -	Contraseña
+    
   Log in
-  -	Nombre
-  -	Contraseña
+    -	Nombre
+    -	Contraseña
 
