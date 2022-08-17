@@ -16,3 +16,14 @@ Sign in or Log in
    - Nombre
    - Contraseña
 
+ - Menu 
+   -	Mi perfil
+   -	Search
+   -	Salir
+     - My Profile
+     -	Nombre
+     -	Redes Sociales
+-	Estrellas
+-	Volver a Menu	
+
+
