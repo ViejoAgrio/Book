@@ -12,7 +12,7 @@ Sign in or Log in
    - Redes Sociales
    - Contraseña
     
-Log in
-- Nombre
-- Contraseña
+ - Log in
+   - Nombre
+   - Contraseña
 
