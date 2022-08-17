@@ -9,11 +9,11 @@ Algoritmo:
 Sign in or Log in
 
 Sign in
- -Nombre
- -Redes Sociales
- -Contraseña
+ - Nombre
+ - Redes Sociales
+ - Contraseña
     
 Log in
--Nombre
--Contraseña
+- Nombre
+- Contraseña
 
