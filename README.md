@@ -20,4 +20,6 @@ Algoritmo:
 9. En el perfil de la persona buscada podemos comentar, calificar o regresar al menú, paso 4.
 10. Si elegimos la opción salir podrémos volver a elegir entre log in y sign in.  
 
-Añadí el avance dos donde se empezó el diseño de los menus y funciones asi como la creación de una clase.
+Avance 2: Añadí el avance dos donde se empezó el diseño de los menus y funciones asi como la creación de una clase.
+
+Avance 3: Se corrigieron errores varios en todo el código, además se implementó la función de clase que ya teniamos getrank y se concluyeron las funciones buscar_persona y menu2. 
