@@ -30,10 +30,12 @@ def principal_menu():
     print("Ingresa un 1 si deseas registrarte, 2 si deseas iniciar sesion o 3 si deseas salir del programa")
 
 def registro():
-
     print("Escribe tu nombre de usuario: ")
+    name=input ()
+    while verificar_nombre_usuario(name)==1:
+        name=input()
     persona=perfil()
-    persona.name=input ()
+    persona.name=name
     print("Escribe tu password: ")
     persona.password=input()
     print("Escribe como te encuentras en instagram: ")
@@ -41,6 +43,14 @@ def registro():
     print('Escribe una descripcion de ti')
     persona.descripcion=input()
     return persona
+
+def verificar_nombre_usuario(name):
+    for obj in base_de_datos_personas:
+        if obj.name==name:
+            print("Este nombre de usuario ya esta ocupado, ingresa otro")
+            return 1
+    return 2
+
 
 def iniciar():
     print("Escribe tu nombre de usuario: ")
@@ -134,6 +144,7 @@ persona1=perfil()
 persona1.name='Imanol'
 persona1.password='qaz'
 persona1.instagram='Imanol_lonami'
+persona1.rank=100000
 base_de_datos_personas.append(persona1)
 persona2=perfil()
 persona2.name='Profe Erick'
@@ -152,4 +163,3 @@ while op!=3:
         iniciar()
         principal_menu()
         op=int(input())
-
