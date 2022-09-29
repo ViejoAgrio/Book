@@ -2,4 +2,4 @@
 
 Imanol Muñiz Ramirez A01701713
 
-Avance 5: Se añadió un ciclo while junto a la función verificar que sirve para que los nombres de usario no se repitan y ocasione problemas. Anteriormente ya habíamos hecho uso de varios ciclos. 
+Avance 6: Desde avances anteriores ya se habían utilizado listas. Para este avance no se cambió nada del código. 
