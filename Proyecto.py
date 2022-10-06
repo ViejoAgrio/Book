@@ -138,6 +138,42 @@ def buscar_persona(name,num_persona):
                 return
     print('No se encontro ese nombre de usuario')
 
+def draw():
+    dibujo=[]
+    cont=0
+    cont2=0
+    while cont<20:
+        dibujo.append([])
+        while cont2<30:
+            dibujo[cont].append("I")
+            cont2+=1
+        cont+=1
+        cont2=0
+    cont=0
+    while cont<20:
+        while cont2<30:
+            if (cont==2 or cont==3 or cont==17 or cont==16):
+                if (cont2>2 and cont2<27):
+                    print(" ", end=" ")
+                else:
+                    print(dibujo[cont][cont2], end=" ")
+            else:
+                if cont==0 or cont==1 or cont==18 or cont==19:
+                    print(dibujo[cont][cont2], end=" ")
+                elif (cont2>13 and cont2<16):
+                    print(" ", end=" ")
+                else:
+                    print(dibujo[cont][cont2], end=" ")
+            cont2+=1
+        print(" ")
+        cont2=0
+        cont+=1
+    print(" ")
+    print("Bienvenido a Invade")
+    print(" ")
+
+
+draw()
 principal_menu()
 base_de_datos_personas=[]
 persona1=perfil()
