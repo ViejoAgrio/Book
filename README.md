@@ -2,4 +2,4 @@
 
 Imanol Muñiz Ramirez A01701713
 
-Avance 6: Desde avances anteriores ya se habían utilizado listas. Para este avance no se cambió nada del código. 
+Avance 7: Se implementó la función draw() donde se utiliza una matriz de listas para generar el logotipo de la aplicación que se muestra al inicio del programa. 
